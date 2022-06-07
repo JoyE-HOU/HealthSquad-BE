@@ -1,0 +1,29 @@
+HealthSquad Application
+
+This applications allows users to keep track of their medications by creating an list of current medications, create reminders to take and refill medications, and print the current list of medications.
+
+User Stories:
+- Users should be able to create and login into their accounts.
+- Users can add, edit, and delete medications.
+- Users should be able to create and print pdf of medications.
+- Users should be able to create reminders to take their medication.
+- Users should be able to create reminders to refill their medication.
+
+Models Needed:
+- User
+- Medication
+- Prescription
+- Reminder
+
+Workflow:
+1. I want to hide the user profile unless they're logged in
+    - First, I need to be able to tell if they're logged in or not
+    - Maybe I'll have this currentCustomer thing that I keep track of, that will be null before I log in (So once they 'login', the current customer is not null, and has current customer info)
+    - And then once I know that it's not null, then I'll display teh user profile
+2. Prompt the user to log in (if they haven't)
+    - I need to go back to the log in menu (of a sort)
+    - And then give them log in screen again
+3. Render user profile
+    - First, I need to display all current prescriptions and refill/reminder schedule
+    - They can add/edit/delete prescriptions, and create new reminders for those prescriptions
+    - Once they add a new prescription, it auto-populates in the refill schedule
