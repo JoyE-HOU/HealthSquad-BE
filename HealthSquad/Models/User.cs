@@ -10,7 +10,7 @@ public class User {
         get => _username;
         set
         {
-            
+            this._username = value;
         }
     }
 
@@ -21,7 +21,7 @@ public class User {
         get => _password;
         set
         {
-
+            this._password = value;
         }
     }
 }

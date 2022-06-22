@@ -72,6 +72,56 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "BL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "DL": "1.0.0",
+          "Models": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/BL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BL.dll": {}
+        }
+      },
+      "DL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Models": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DL.dll": {}
+        }
+      },
+      "Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Models.dll": {}
+        }
+      },
+      "Services/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Models": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Services.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Services.dll": {}
+        }
       }
     }
   },
@@ -200,10 +250,34 @@
         "swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512",
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
+    },
+    "BL/1.0.0": {
+      "type": "project",
+      "path": "../BL/BL.csproj",
+      "msbuildProject": "../BL/BL.csproj"
+    },
+    "DL/1.0.0": {
+      "type": "project",
+      "path": "../DL/DL.csproj",
+      "msbuildProject": "../DL/DL.csproj"
+    },
+    "Models/1.0.0": {
+      "type": "project",
+      "path": "../Models/Models.csproj",
+      "msbuildProject": "../Models/Models.csproj"
+    },
+    "Services/1.0.0": {
+      "type": "project",
+      "path": "../Services/Services.csproj",
+      "msbuildProject": "../Services/Services.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "BL >= 1.0.0",
+      "DL >= 1.0.0",
+      "Models >= 1.0.0",
+      "Services >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.2.3"
     ]
   },
@@ -231,7 +305,20 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/Users/joyevans/Documents/freelance_work/staging_projects/HealthSquad-BE/HealthSquad/BL/BL.csproj": {
+              "projectPath": "/Users/joyevans/Documents/freelance_work/staging_projects/HealthSquad-BE/HealthSquad/BL/BL.csproj"
+            },
+            "/Users/joyevans/Documents/freelance_work/staging_projects/HealthSquad-BE/HealthSquad/DL/DL.csproj": {
+              "projectPath": "/Users/joyevans/Documents/freelance_work/staging_projects/HealthSquad-BE/HealthSquad/DL/DL.csproj"
+            },
+            "/Users/joyevans/Documents/freelance_work/staging_projects/HealthSquad-BE/HealthSquad/Models/Models.csproj": {
+              "projectPath": "/Users/joyevans/Documents/freelance_work/staging_projects/HealthSquad-BE/HealthSquad/Models/Models.csproj"
+            },
+            "/Users/joyevans/Documents/freelance_work/staging_projects/HealthSquad-BE/HealthSquad/Services/Services.csproj": {
+              "projectPath": "/Users/joyevans/Documents/freelance_work/staging_projects/HealthSquad-BE/HealthSquad/Services/Services.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

@@ -1,11 +1,49 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "DL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Models": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DL.dll": {}
+        }
+      },
+      "Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Models.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "DL/1.0.0": {
+      "type": "project",
+      "path": "../DL/DL.csproj",
+      "msbuildProject": "../DL/DL.csproj"
+    },
+    "Models/1.0.0": {
+      "type": "project",
+      "path": "../Models/Models.csproj",
+      "msbuildProject": "../Models/Models.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "DL >= 1.0.0",
+      "Models >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "/Users/joyevans/.nuget/packages/": {}
@@ -31,7 +69,14 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/Users/joyevans/Documents/freelance_work/staging_projects/HealthSquad-BE/HealthSquad/DL/DL.csproj": {
+              "projectPath": "/Users/joyevans/Documents/freelance_work/staging_projects/HealthSquad-BE/HealthSquad/DL/DL.csproj"
+            },
+            "/Users/joyevans/Documents/freelance_work/staging_projects/HealthSquad-BE/HealthSquad/Models/Models.csproj": {
+              "projectPath": "/Users/joyevans/Documents/freelance_work/staging_projects/HealthSquad-BE/HealthSquad/Models/Models.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
