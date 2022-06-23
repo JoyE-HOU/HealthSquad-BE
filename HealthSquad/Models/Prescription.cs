@@ -11,4 +11,13 @@ public class Prescription {
             this._user = value;
         }
     }
+    private Medication? _medication;
+    public Medication? Medication
+    {
+        get => _medication;
+        set
+        {
+            this._medication = value;
+        }
+    }
 }
