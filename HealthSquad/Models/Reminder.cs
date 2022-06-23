@@ -8,7 +8,7 @@ public class Reminder {
         get => _user;
         set
         {
-            
+            this._user = value;
         }
     }
     private Prescription? _prescription;
@@ -17,7 +17,7 @@ public class Reminder {
         get => _prescription;
         set
         {
-
+            this._prescription = value;
         }
     }
     private TimeOnly _alert;
@@ -26,7 +26,7 @@ public class Reminder {
         get => _alert;
         set
         {
-            
+            this._alert = value;
         }
     }
 }

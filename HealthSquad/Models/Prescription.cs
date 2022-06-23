@@ -8,7 +8,7 @@ public class Prescription {
         get => _user;
         set
         {
-            
+            this._user = value;
         }
     }
 }

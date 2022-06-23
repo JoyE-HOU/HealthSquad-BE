@@ -8,7 +8,7 @@ public class Medication
         get => _name;
         set
         {
-
+            this._name = value;
         }
     }
     private string? _description;
@@ -17,7 +17,7 @@ public class Medication
         get => _description;
         set
         {
-
+            this._description = value;
         }
     }
     private string? _dosage;
@@ -26,7 +26,7 @@ public class Medication
         get => _dosage;
         set
         {
-
+            this._dosage = value;
         }
     }
     private string? _directions;
@@ -35,7 +35,7 @@ public class Medication
         get => _directions;
         set
         {
-
+            this._description = value;
         }
     }
     private int _count;
@@ -44,7 +44,7 @@ public class Medication
         get => _count;
         set
         {
-
+            this._count = value;
         }
     }
 }
