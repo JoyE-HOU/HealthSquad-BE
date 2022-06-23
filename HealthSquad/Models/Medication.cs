@@ -35,7 +35,7 @@ public class Medication
         get => _directions;
         set
         {
-            this._description = value;
+            this._directions = value;
         }
     }
     private int _count;
