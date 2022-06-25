@@ -12,7 +12,8 @@ public static class MedicationService
         {
             new Medication { Id = 1, Name = "Atorvastatin 10 MG Tablet", Description = "Tablet", Dosage = "10 MG", Directions = "take one tablet per day", Count = 90 },
             new Medication { Id = 2, Name = "Lisinopril 10 MG Tablet", Description = "Tablet", Dosage = "10 MG", Directions = "take one tablet per day", Count = 90 },
-            new Medication { Id = 2, Name = "Donepezil 5 MG Tablet", Description = "Tablet", Dosage = "5 MG", Directions = "take one tablet per day", Count = 90 }
+            new Medication { Id = 3, Name = "Donepezil 5 MG Tablet", Description = "Tablet", Dosage = "5 MG", Directions = "take one tablet per day", Count = 90 },
+            new Medication { Id = 4, Name = "Letrozole 2.5 MG Tablet", Description = "Tablet", Dosage = "2.5 MG", Directions = "take one tablet per day", Count = 90 }
         };
     }
 
