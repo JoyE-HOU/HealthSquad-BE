@@ -10,7 +10,7 @@ public static class ReminderService
     {
         Reminders = new List<Reminder>
         {
-            new Reminder { Id = 1, User = {}, Prescription = {}, Alert = new TimeOnly(9, 0)},
+            new Reminder { Id = 1, User = {Id = 1, Username = "Classic Italian", Password = "false"}, Prescription = {Id = 1, User = {Id = 1, Username = "Classic Italian", Password = "false"}, Medication = {Id = 1, Name = "Atorvastatin 10 MG Tablet", Description = "Tablet", Dosage = "10 MG", Directions = "take one tablet per day", Count = 90}}, Alert = new TimeOnly(9, 0)},
         };
     }
 

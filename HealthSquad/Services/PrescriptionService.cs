@@ -10,7 +10,7 @@ public static class PrescriptionService
     {
         Prescriptions = new List<Prescription>
         {
-            new Prescription { Id = 1, User = {}, Medication = {}},
+            new Prescription { Id = 1, User = {Id = 1, Username = "Classic Italian", Password = "false"}, Medication = {Id = 1, Name = "Atorvastatin 10 MG Tablet", Description = "Tablet", Dosage = "10 MG", Directions = "take one tablet per day", Count = 90}},
         };
     }
 
