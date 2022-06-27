@@ -1,3 +1,4 @@
+using CustomExceptions;
 namespace Models;
 
 public class Prescription {
@@ -8,7 +9,14 @@ public class Prescription {
         get => _user;
         set
         {
-            this._user = value;
+            if(value == null)
+            {
+                throw new InputInvalidException("User can't be empty");
+            }
+            else
+            {
+                this._user = value;
+            }
         }
     }
     private Medication? _medication;
@@ -17,7 +25,14 @@ public class Prescription {
         get => _medication;
         set
         {
-            this._medication = value;
+            if(value == null)
+            {
+                throw new InputInvalidException("Medication can't be empty");
+            }
+            else
+            {
+                this._medication = value;
+            }
         }
     }
 }

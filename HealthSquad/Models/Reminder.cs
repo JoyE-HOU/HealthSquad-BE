@@ -1,3 +1,4 @@
+using CustomExceptions;
 namespace Models;
 
 public class Reminder {
@@ -8,7 +9,14 @@ public class Reminder {
         get => _user;
         set
         {
-            this._user = value;
+            if(value == null)
+            {
+                throw new InputInvalidException("User can't be empty");
+            }
+            else
+            {
+                this._user = value;
+            }
         }
     }
     private Prescription? _prescription;
@@ -17,7 +25,14 @@ public class Reminder {
         get => _prescription;
         set
         {
-            this._prescription = value;
+            if(value == null)
+            {
+                throw new InputInvalidException("Prescription can't be empty");
+            }
+            else
+            {
+                this._prescription = value;
+            }
         }
     }
     private TimeOnly _alert;

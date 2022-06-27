@@ -1,5 +1,5 @@
+using CustomExceptions;
 namespace Models;
-
 public class User {
     public int Id { get; set; }
     
@@ -10,7 +10,14 @@ public class User {
         get => _username;
         set
         {
-            this._username = value;
+            if(string.IsNullOrWhiteSpace(value))
+            {
+                throw new InputInvalidException("Username can't be empty");
+            }
+            else
+            {
+                this._username = value;
+            }
         }
     }
 
@@ -21,7 +28,14 @@ public class User {
         get => _password;
         set
         {
-            this._password = value;
+            if(string.IsNullOrWhiteSpace(value))
+            {
+                throw new InputInvalidException("Password can't be empty");
+            }
+            else
+            {
+                this._password = value;
+            }
         }
     }
 }

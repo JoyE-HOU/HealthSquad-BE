@@ -1,4 +1,5 @@
-﻿namespace Models;
+﻿using CustomExceptions;
+namespace Models;
 public class Medication
 {
     public int Id { get; set; }
@@ -8,7 +9,14 @@ public class Medication
         get => _name;
         set
         {
-            this._name = value;
+            if(string.IsNullOrWhiteSpace(value))
+            {
+                throw new InputInvalidException("Name can't be empty");
+            }
+            else
+            {
+                this._name = value;
+            }
         }
     }
     private string? _description;
@@ -17,7 +25,14 @@ public class Medication
         get => _description;
         set
         {
-            this._description = value;
+            if(string.IsNullOrWhiteSpace(value))
+            {
+                throw new InputInvalidException("Description can't be empty");
+            }
+            else
+            {
+                this._description = value;
+            }
         }
     }
     private string? _dosage;
@@ -26,7 +41,14 @@ public class Medication
         get => _dosage;
         set
         {
-            this._dosage = value;
+            if(string.IsNullOrWhiteSpace(value))
+            {
+                throw new InputInvalidException("Dosage can't be empty");
+            }
+            else
+            {
+                this._dosage = value;
+            }
         }
     }
     private string? _directions;
@@ -35,7 +57,14 @@ public class Medication
         get => _directions;
         set
         {
-            this._directions = value;
+            if(string.IsNullOrWhiteSpace(value))
+            {
+                throw new InputInvalidException("Directions can't be empty");
+            }
+            else
+            {
+                this._directions = value;
+            }
         }
     }
     private int _count;
@@ -44,7 +73,14 @@ public class Medication
         get => _count;
         set
         {
-            this._count = value;
+            if(value == 0)
+            {
+                throw new InputInvalidException("Count can't be less than 1");
+            }
+            else
+            {
+                this._count = value;
+            }
         }
     }
 }
