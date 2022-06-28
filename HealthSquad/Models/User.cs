@@ -38,4 +38,7 @@ public class User {
             }
         }
     }
+
+    public List<Prescription>? Prescriptions { get; set; }
+    public List<Reminder>? Reminders { get; set; }
 }
