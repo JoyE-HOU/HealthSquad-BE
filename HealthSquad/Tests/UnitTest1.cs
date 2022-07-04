@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using Xunit;
 using Models;
 
@@ -25,6 +26,30 @@ public class UnitTest1
 
         Assert.Equal(username, testUser.Username);
         Assert.Equal(password, testUser.Password);
+    }
+    [Fact]
+    public void UserPrescriptionShouldBeAbleToSet()
+    {
+        User testUser = new User();
+        List<Prescription> testPrescriptions = new List<Prescription>();
+        int testPrescriptionsCount = 0;
+
+        testUser.Prescriptions = testPrescriptions;
+
+        Assert.NotNull(testUser.Prescriptions);
+        Assert.Equal(testPrescriptionsCount, testUser.Prescriptions.Count);
+    }
+    [Fact]
+    public void UserReminderShouldBeAbleToSet()
+    {
+        User testUser = new User();
+        List<Reminder> testReminders = new List<Reminder>();
+        int testRemindersCount = 0;
+
+        testUser.Reminders = testReminders;
+
+        Assert.NotNull(testUser.Reminders);
+        Assert.Equal(testRemindersCount, testUser.Reminders.Count);
     }
     [Fact]
     public void MedicationShouldCreate()
