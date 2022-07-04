@@ -1,3 +1,4 @@
+using System;
 using Xunit;
 using Models;
 
@@ -87,12 +88,14 @@ public class UnitTest1
         Reminder testReminder = new Reminder();
         User user = new User(); 
         Prescription prescription = new Prescription(); 
-        // new TimeOnly();
+        TimeOnly alert = new TimeOnly(); //unless you enter `using System`, you'll get this error: The type or namespace name 'TimeOnly' could not be found (are you missing a using directive or an assembly reference?)
 
         testReminder.User = user;
         testReminder.Prescription = prescription;
+        testReminder.Alert = alert;
 
         Assert.NotNull(user);
         Assert.NotNull(prescription);
+        Assert.NotNull(alert);
     }
 }
