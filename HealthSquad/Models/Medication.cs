@@ -73,7 +73,7 @@ public class Medication
         get => _count;
         set
         {
-            if(value == 0)
+            if(value <= 0)
             {
                 throw new InputInvalidException("Count can't be less than 1");
             }

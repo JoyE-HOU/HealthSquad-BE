@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using Xunit;
 using Models;
+using CustomExceptions;
 
 namespace Tests;
 
@@ -28,7 +29,7 @@ public class UnitTest1
         Assert.Equal(password, testUser.Password);
     }
     [Fact]
-    public void UserPrescriptionShouldBeAbleToSet()
+    public void UserPrescriptionsShouldBeAbleToSet()
     {
         User testUser = new User();
         List<Prescription> testPrescriptions = new List<Prescription>();
@@ -40,7 +41,7 @@ public class UnitTest1
         Assert.Equal(testPrescriptionsCount, testUser.Prescriptions.Count);
     }
     [Fact]
-    public void UserReminderShouldBeAbleToSet()
+    public void UserRemindersShouldBeAbleToSet()
     {
         User testUser = new User();
         List<Reminder> testReminders = new List<Reminder>();
@@ -79,6 +80,15 @@ public class UnitTest1
         Assert.Equal(dosage, testMedication.Dosage);
         Assert.Equal(directions, testMedication.Directions);
         Assert.Equal(count, testMedication.Count);
+    }
+    [Theory]
+    [InlineData(0)]
+    [InlineData(-1)]
+    public void MedicationCountShouldNotBeLessThanOne(int input)
+    {
+        Medication testMedication = new Medication();
+
+        Assert.Throws<InputInvalidException>(() => testMedication.Count = input);
     }
     [Fact]
     public void PrescriptionShouldCreate()
