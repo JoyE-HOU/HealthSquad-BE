@@ -22,7 +22,7 @@ public class StaticStorage
     /// <summary>
     /// returns a list of medications from allMedications list
     /// </summary>
-    /// <returns>all medications in list</returns>
+    /// <returns>all medications in the list</returns>
     public List<Medication> GetAllMedications()
     {
         return StaticStorage._allMedications;
@@ -36,5 +36,21 @@ public class StaticStorage
         StaticStorage._allMedications.Add(MedicationToAdd);
     }
     private static List<Prescription> _allPrescriptions = new List<Prescription>();
+    /// <summary>
+    /// returns a list of prescriptions from allPrescription list
+    /// </summary>
+    /// <returns>all prescriptions in the list</returns>
+    public List<Prescription> GetAllPrescriptions()
+    {
+        return StaticStorage._allPrescriptions;
+    }
+    /// <summary>
+    /// adds a new prescriptions to list
+    /// </summary>
+    /// <param name="PrescriptionToAdd">new prescription object to add</param>
+    public void AddNewPrescription(Prescription PrescriptionToAdd)
+    {
+        StaticStorage._allPrescriptions.Add(PrescriptionToAdd);
+    }
     private static List<Reminder> _allReminders = new List<Reminder>();
 }
