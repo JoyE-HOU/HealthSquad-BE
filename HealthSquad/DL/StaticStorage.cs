@@ -2,6 +2,22 @@
 public class StaticStorage
 {
     private static List<User> _allUsers = new List<User>();
+    /// <summary>
+    /// returns a list of users from allUsers list
+    /// </summary>
+    /// <returns>all users in list</returns>
+    public List<User> GetAllUsers()
+    {
+        return StaticStorage._allUsers;
+    }
+    /// <summary>
+    /// adds a new user to list
+    /// </summary>
+    /// <param name="UserToAdd">new user object to add</param>
+    public void AddNewUsers(User UserToAdd)
+    {
+        StaticStorage._allUsers.Add(UserToAdd);
+    }
     private static List<Medication> _allMedications = new List<Medication>();
     /// <summary>
     /// returns a list of medications from allMedications list
@@ -12,7 +28,7 @@ public class StaticStorage
         return StaticStorage._allMedications;
     }
     /// <summary>
-    /// adds new medication to list
+    /// adds a new medication to list
     /// </summary>
     /// <param name="MedicationToAdd">new medication object to add</param>
     public void AddNewMedication(Medication MedicationToAdd)
