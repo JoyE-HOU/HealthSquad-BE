@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/joyevans/Documents/freelance_work/staging_projects/HealthSquad-BE/HealthSquad/Models/Models.csproj",
+      "projectUniqueName": "/Users/joyevans/Documents/freelance_work/HealthSquad/HealthSquad-BE/HealthSquad/Models/Models.csproj",
       "projectName": "Models",
-      "projectPath": "/Users/joyevans/Documents/freelance_work/staging_projects/HealthSquad-BE/HealthSquad/Models/Models.csproj",
+      "projectPath": "/Users/joyevans/Documents/freelance_work/HealthSquad/HealthSquad-BE/HealthSquad/Models/Models.csproj",
       "packagesPath": "/Users/joyevans/.nuget/packages/",
-      "outputPath": "/Users/joyevans/Documents/freelance_work/staging_projects/HealthSquad-BE/HealthSquad/Models/obj/",
+      "outputPath": "/Users/joyevans/Documents/freelance_work/HealthSquad/HealthSquad-BE/HealthSquad/Models/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/joyevans/.nuget/NuGet/NuGet.Config"

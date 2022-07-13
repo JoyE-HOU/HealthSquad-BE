@@ -53,4 +53,20 @@ public class StaticStorage
         StaticStorage._allPrescriptions.Add(PrescriptionToAdd);
     }
     private static List<Reminder> _allReminders = new List<Reminder>();
+    /// <summary>
+    /// returns a list of reminders from allReminder list
+    /// </summary>
+    /// <returns>all reminders in the list</returns>
+    public List<Reminder> GetAllReminders()
+    {
+        return StaticStorage._allReminders;
+    }
+    /// <summary>
+    /// adds a new reminder to the list
+    /// </summary>
+    /// <param name="ReminderToAdd">new reminder object to add</param>
+    public void AddNewReminder(Reminder ReminderToAdd)
+    {
+        StaticStorage._allReminders.Add(ReminderToAdd);
+    }
 }

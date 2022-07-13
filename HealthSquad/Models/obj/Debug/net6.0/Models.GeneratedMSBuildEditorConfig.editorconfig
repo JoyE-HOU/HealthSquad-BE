@@ -7,4 +7,4 @@ build_property.InvariantGlobalization =
 build_property.PlatformNeutralAssembly = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Models
-build_property.ProjectDir = /Users/joyevans/Documents/freelance_work/staging_projects/HealthSquad-BE/HealthSquad/Models/
+build_property.ProjectDir = /Users/joyevans/Documents/freelance_work/HealthSquad/HealthSquad-BE/HealthSquad/Models/

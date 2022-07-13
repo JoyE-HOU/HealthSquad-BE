@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/joyevans/Documents/freelance_work/staging_projects/HealthSquad-BE/HealthSquad/Tests/Tests.csproj": {}
+    "/Users/joyevans/Documents/freelance_work/HealthSquad/HealthSquad-BE/HealthSquad/Tests/Tests.csproj": {}
   },
   "projects": {
-    "/Users/joyevans/Documents/freelance_work/staging_projects/HealthSquad-BE/HealthSquad/Models/Models.csproj": {
+    "/Users/joyevans/Documents/freelance_work/HealthSquad/HealthSquad-BE/HealthSquad/Models/Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/joyevans/Documents/freelance_work/staging_projects/HealthSquad-BE/HealthSquad/Models/Models.csproj",
+        "projectUniqueName": "/Users/joyevans/Documents/freelance_work/HealthSquad/HealthSquad-BE/HealthSquad/Models/Models.csproj",
         "projectName": "Models",
-        "projectPath": "/Users/joyevans/Documents/freelance_work/staging_projects/HealthSquad-BE/HealthSquad/Models/Models.csproj",
+        "projectPath": "/Users/joyevans/Documents/freelance_work/HealthSquad/HealthSquad-BE/HealthSquad/Models/Models.csproj",
         "packagesPath": "/Users/joyevans/.nuget/packages/",
-        "outputPath": "/Users/joyevans/Documents/freelance_work/staging_projects/HealthSquad-BE/HealthSquad/Models/obj/",
+        "outputPath": "/Users/joyevans/Documents/freelance_work/HealthSquad/HealthSquad-BE/HealthSquad/Models/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/joyevans/.nuget/NuGet/NuGet.Config"
@@ -56,14 +56,14 @@
         }
       }
     },
-    "/Users/joyevans/Documents/freelance_work/staging_projects/HealthSquad-BE/HealthSquad/Tests/Tests.csproj": {
+    "/Users/joyevans/Documents/freelance_work/HealthSquad/HealthSquad-BE/HealthSquad/Tests/Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/joyevans/Documents/freelance_work/staging_projects/HealthSquad-BE/HealthSquad/Tests/Tests.csproj",
+        "projectUniqueName": "/Users/joyevans/Documents/freelance_work/HealthSquad/HealthSquad-BE/HealthSquad/Tests/Tests.csproj",
         "projectName": "Tests",
-        "projectPath": "/Users/joyevans/Documents/freelance_work/staging_projects/HealthSquad-BE/HealthSquad/Tests/Tests.csproj",
+        "projectPath": "/Users/joyevans/Documents/freelance_work/HealthSquad/HealthSquad-BE/HealthSquad/Tests/Tests.csproj",
         "packagesPath": "/Users/joyevans/.nuget/packages/",
-        "outputPath": "/Users/joyevans/Documents/freelance_work/staging_projects/HealthSquad-BE/HealthSquad/Tests/obj/",
+        "outputPath": "/Users/joyevans/Documents/freelance_work/HealthSquad/HealthSquad-BE/HealthSquad/Tests/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/joyevans/.nuget/NuGet/NuGet.Config"
@@ -78,8 +78,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/Users/joyevans/Documents/freelance_work/staging_projects/HealthSquad-BE/HealthSquad/Models/Models.csproj": {
-                "projectPath": "/Users/joyevans/Documents/freelance_work/staging_projects/HealthSquad-BE/HealthSquad/Models/Models.csproj"
+              "/Users/joyevans/Documents/freelance_work/HealthSquad/HealthSquad-BE/HealthSquad/Models/Models.csproj": {
+                "projectPath": "/Users/joyevans/Documents/freelance_work/HealthSquad/HealthSquad-BE/HealthSquad/Models/Models.csproj"
               }
             }
           }
