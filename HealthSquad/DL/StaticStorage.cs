@@ -1,7 +1,9 @@
 ﻿namespace DL;
 public class StaticStorage
 {
-    // created docker and dl branch
+    // create docker branch
+    // created dl branch
+
     private static List<User> _allUsers = new List<User>();
     /// <summary>
     /// returns a list of users from allUsers list
