@@ -8,24 +8,26 @@
     "net6.0": []
   },
   "packageFolders": {
-    "/Users/joyevans/.nuget/packages/": {}
+    "C:\\Users\\17138\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/joyevans/Documents/freelance_work/HealthSquad/HealthSquad-BE/HealthSquad/Models/Models.csproj",
+      "projectUniqueName": "C:\\Users\\17138\\Desktop\\freelance_projects\\HealthSquad-BE\\HealthSquad\\Models\\Models.csproj",
       "projectName": "Models",
-      "projectPath": "/Users/joyevans/Documents/freelance_work/HealthSquad/HealthSquad-BE/HealthSquad/Models/Models.csproj",
-      "packagesPath": "/Users/joyevans/.nuget/packages/",
-      "outputPath": "/Users/joyevans/Documents/freelance_work/HealthSquad/HealthSquad-BE/HealthSquad/Models/obj/",
+      "projectPath": "C:\\Users\\17138\\Desktop\\freelance_projects\\HealthSquad-BE\\HealthSquad\\Models\\Models.csproj",
+      "packagesPath": "C:\\Users\\17138\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\17138\\Desktop\\freelance_projects\\HealthSquad-BE\\HealthSquad\\Models\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/joyevans/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\17138\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -58,7 +60,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.101/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }
