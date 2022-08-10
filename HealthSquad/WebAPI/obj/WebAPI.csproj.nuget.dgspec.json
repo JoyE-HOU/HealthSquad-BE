@@ -1,140 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "/Users/joyevans/Documents/freelance_work/staging_projects/HealthSquad-BE/HealthSquad/WebAPI/WebAPI.csproj": {}
+    "C:\\Users\\17138\\Desktop\\freelance_projects\\HealthSquad-BE\\HealthSquad\\WebAPI\\WebAPI.csproj": {}
   },
   "projects": {
-    "/Users/joyevans/Documents/freelance_work/staging_projects/HealthSquad-BE/HealthSquad/BL/BL.csproj": {
+    "C:\\Users\\17138\\Desktop\\freelance_projects\\HealthSquad-BE\\HealthSquad\\WebAPI\\WebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/joyevans/Documents/freelance_work/staging_projects/HealthSquad-BE/HealthSquad/BL/BL.csproj",
-        "projectName": "BL",
-        "projectPath": "/Users/joyevans/Documents/freelance_work/staging_projects/HealthSquad-BE/HealthSquad/BL/BL.csproj",
-        "packagesPath": "/Users/joyevans/.nuget/packages/",
-        "outputPath": "/Users/joyevans/Documents/freelance_work/staging_projects/HealthSquad-BE/HealthSquad/BL/obj/",
+        "projectUniqueName": "C:\\Users\\17138\\Desktop\\freelance_projects\\HealthSquad-BE\\HealthSquad\\WebAPI\\WebAPI.csproj",
+        "projectName": "WebAPI",
+        "projectPath": "C:\\Users\\17138\\Desktop\\freelance_projects\\HealthSquad-BE\\HealthSquad\\WebAPI\\WebAPI.csproj",
+        "packagesPath": "C:\\Users\\17138\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\17138\\Desktop\\freelance_projects\\HealthSquad-BE\\HealthSquad\\WebAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/joyevans/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\17138\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
-            "projectReferences": {
-              "/Users/joyevans/Documents/freelance_work/staging_projects/HealthSquad-BE/HealthSquad/DL/DL.csproj": {
-                "projectPath": "/Users/joyevans/Documents/freelance_work/staging_projects/HealthSquad-BE/HealthSquad/DL/DL.csproj"
-              },
-              "/Users/joyevans/Documents/freelance_work/staging_projects/HealthSquad-BE/HealthSquad/Models/Models.csproj": {
-                "projectPath": "/Users/joyevans/Documents/freelance_work/staging_projects/HealthSquad-BE/HealthSquad/Models/Models.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.101/RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "/Users/joyevans/Documents/freelance_work/staging_projects/HealthSquad-BE/HealthSquad/DL/DL.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "/Users/joyevans/Documents/freelance_work/staging_projects/HealthSquad-BE/HealthSquad/DL/DL.csproj",
-        "projectName": "DL",
-        "projectPath": "/Users/joyevans/Documents/freelance_work/staging_projects/HealthSquad-BE/HealthSquad/DL/DL.csproj",
-        "packagesPath": "/Users/joyevans/.nuget/packages/",
-        "outputPath": "/Users/joyevans/Documents/freelance_work/staging_projects/HealthSquad-BE/HealthSquad/DL/obj/",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "/Users/joyevans/.nuget/NuGet/NuGet.Config"
-        ],
-        "originalTargetFrameworks": [
-          "net6.0"
-        ],
-        "sources": {
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
-            "projectReferences": {
-              "/Users/joyevans/Documents/freelance_work/staging_projects/HealthSquad-BE/HealthSquad/Models/Models.csproj": {
-                "projectPath": "/Users/joyevans/Documents/freelance_work/staging_projects/HealthSquad-BE/HealthSquad/Models/Models.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.101/RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "/Users/joyevans/Documents/freelance_work/staging_projects/HealthSquad-BE/HealthSquad/Models/Models.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "/Users/joyevans/Documents/freelance_work/staging_projects/HealthSquad-BE/HealthSquad/Models/Models.csproj",
-        "projectName": "Models",
-        "projectPath": "/Users/joyevans/Documents/freelance_work/staging_projects/HealthSquad-BE/HealthSquad/Models/Models.csproj",
-        "packagesPath": "/Users/joyevans/.nuget/packages/",
-        "outputPath": "/Users/joyevans/Documents/freelance_work/staging_projects/HealthSquad-BE/HealthSquad/Models/obj/",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "/Users/joyevans/.nuget/NuGet/NuGet.Config"
-        ],
-        "originalTargetFrameworks": [
-          "net6.0"
-        ],
-        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -152,128 +39,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.101/RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "/Users/joyevans/Documents/freelance_work/staging_projects/HealthSquad-BE/HealthSquad/Services/Services.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "/Users/joyevans/Documents/freelance_work/staging_projects/HealthSquad-BE/HealthSquad/Services/Services.csproj",
-        "projectName": "Services",
-        "projectPath": "/Users/joyevans/Documents/freelance_work/staging_projects/HealthSquad-BE/HealthSquad/Services/Services.csproj",
-        "packagesPath": "/Users/joyevans/.nuget/packages/",
-        "outputPath": "/Users/joyevans/Documents/freelance_work/staging_projects/HealthSquad-BE/HealthSquad/Services/obj/",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "/Users/joyevans/.nuget/NuGet/NuGet.Config"
-        ],
-        "originalTargetFrameworks": [
-          "net6.0"
-        ],
-        "sources": {
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
-            "projectReferences": {
-              "/Users/joyevans/Documents/freelance_work/staging_projects/HealthSquad-BE/HealthSquad/Models/Models.csproj": {
-                "projectPath": "/Users/joyevans/Documents/freelance_work/staging_projects/HealthSquad-BE/HealthSquad/Models/Models.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.101/RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "/Users/joyevans/Documents/freelance_work/staging_projects/HealthSquad-BE/HealthSquad/WebAPI/WebAPI.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "/Users/joyevans/Documents/freelance_work/staging_projects/HealthSquad-BE/HealthSquad/WebAPI/WebAPI.csproj",
-        "projectName": "WebAPI",
-        "projectPath": "/Users/joyevans/Documents/freelance_work/staging_projects/HealthSquad-BE/HealthSquad/WebAPI/WebAPI.csproj",
-        "packagesPath": "/Users/joyevans/.nuget/packages/",
-        "outputPath": "/Users/joyevans/Documents/freelance_work/staging_projects/HealthSquad-BE/HealthSquad/WebAPI/obj/",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "/Users/joyevans/.nuget/NuGet/NuGet.Config"
-        ],
-        "originalTargetFrameworks": [
-          "net6.0"
-        ],
-        "sources": {
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
-            "projectReferences": {
-              "/Users/joyevans/Documents/freelance_work/staging_projects/HealthSquad-BE/HealthSquad/BL/BL.csproj": {
-                "projectPath": "/Users/joyevans/Documents/freelance_work/staging_projects/HealthSquad-BE/HealthSquad/BL/BL.csproj"
-              },
-              "/Users/joyevans/Documents/freelance_work/staging_projects/HealthSquad-BE/HealthSquad/DL/DL.csproj": {
-                "projectPath": "/Users/joyevans/Documents/freelance_work/staging_projects/HealthSquad-BE/HealthSquad/DL/DL.csproj"
-              },
-              "/Users/joyevans/Documents/freelance_work/staging_projects/HealthSquad-BE/HealthSquad/Models/Models.csproj": {
-                "projectPath": "/Users/joyevans/Documents/freelance_work/staging_projects/HealthSquad-BE/HealthSquad/Models/Models.csproj"
-              },
-              "/Users/joyevans/Documents/freelance_work/staging_projects/HealthSquad-BE/HealthSquad/Services/Services.csproj": {
-                "projectPath": "/Users/joyevans/Documents/freelance_work/staging_projects/HealthSquad-BE/HealthSquad/Services/Services.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.14.0, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.2.3, )"
@@ -297,7 +67,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.101/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
