@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\17138\\Desktop\\freelance_projects\\HealthSquad-BE\\HealthSquad\\Tests\\Tests.csproj": {}
+    "c:\\Users\\17138\\Desktop\\freelance_projects\\HealthSquad-BE\\HealthSquad\\Tests\\Tests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\17138\\Desktop\\freelance_projects\\HealthSquad-BE\\HealthSquad\\Models\\Models.csproj": {
+    "c:\\Users\\17138\\Desktop\\freelance_projects\\HealthSquad-BE\\HealthSquad\\Models\\Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\17138\\Desktop\\freelance_projects\\HealthSquad-BE\\HealthSquad\\Models\\Models.csproj",
+        "projectUniqueName": "c:\\Users\\17138\\Desktop\\freelance_projects\\HealthSquad-BE\\HealthSquad\\Models\\Models.csproj",
         "projectName": "Models",
-        "projectPath": "C:\\Users\\17138\\Desktop\\freelance_projects\\HealthSquad-BE\\HealthSquad\\Models\\Models.csproj",
+        "projectPath": "c:\\Users\\17138\\Desktop\\freelance_projects\\HealthSquad-BE\\HealthSquad\\Models\\Models.csproj",
         "packagesPath": "C:\\Users\\17138\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\17138\\Desktop\\freelance_projects\\HealthSquad-BE\\HealthSquad\\Models\\obj\\",
+        "outputPath": "c:\\Users\\17138\\Desktop\\freelance_projects\\HealthSquad-BE\\HealthSquad\\Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\17138\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -58,14 +58,14 @@
         }
       }
     },
-    "C:\\Users\\17138\\Desktop\\freelance_projects\\HealthSquad-BE\\HealthSquad\\Tests\\Tests.csproj": {
+    "c:\\Users\\17138\\Desktop\\freelance_projects\\HealthSquad-BE\\HealthSquad\\Tests\\Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\17138\\Desktop\\freelance_projects\\HealthSquad-BE\\HealthSquad\\Tests\\Tests.csproj",
+        "projectUniqueName": "c:\\Users\\17138\\Desktop\\freelance_projects\\HealthSquad-BE\\HealthSquad\\Tests\\Tests.csproj",
         "projectName": "Tests",
-        "projectPath": "C:\\Users\\17138\\Desktop\\freelance_projects\\HealthSquad-BE\\HealthSquad\\Tests\\Tests.csproj",
+        "projectPath": "c:\\Users\\17138\\Desktop\\freelance_projects\\HealthSquad-BE\\HealthSquad\\Tests\\Tests.csproj",
         "packagesPath": "C:\\Users\\17138\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\17138\\Desktop\\freelance_projects\\HealthSquad-BE\\HealthSquad\\Tests\\obj\\",
+        "outputPath": "c:\\Users\\17138\\Desktop\\freelance_projects\\HealthSquad-BE\\HealthSquad\\Tests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\17138\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -82,8 +82,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\17138\\Desktop\\freelance_projects\\HealthSquad-BE\\HealthSquad\\Models\\Models.csproj": {
-                "projectPath": "C:\\Users\\17138\\Desktop\\freelance_projects\\HealthSquad-BE\\HealthSquad\\Models\\Models.csproj"
+              "c:\\Users\\17138\\Desktop\\freelance_projects\\HealthSquad-BE\\HealthSquad\\Models\\Models.csproj": {
+                "projectPath": "c:\\Users\\17138\\Desktop\\freelance_projects\\HealthSquad-BE\\HealthSquad\\Models\\Models.csproj"
               }
             }
           }
