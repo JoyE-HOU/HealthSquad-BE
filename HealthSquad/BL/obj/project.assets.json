@@ -51,11 +51,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\17138\\Desktop\\freelance_projects\\HealthSquad-BE\\HealthSquad\\BL\\BL.csproj",
+      "projectUniqueName": "c:\\Users\\17138\\Desktop\\freelance_projects\\HealthSquad-BE\\HealthSquad\\BL\\BL.csproj",
       "projectName": "BL",
-      "projectPath": "C:\\Users\\17138\\Desktop\\freelance_projects\\HealthSquad-BE\\HealthSquad\\BL\\BL.csproj",
+      "projectPath": "c:\\Users\\17138\\Desktop\\freelance_projects\\HealthSquad-BE\\HealthSquad\\BL\\BL.csproj",
       "packagesPath": "C:\\Users\\17138\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\17138\\Desktop\\freelance_projects\\HealthSquad-BE\\HealthSquad\\BL\\obj\\",
+      "outputPath": "c:\\Users\\17138\\Desktop\\freelance_projects\\HealthSquad-BE\\HealthSquad\\BL\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\17138\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -72,11 +72,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\17138\\Desktop\\freelance_projects\\HealthSquad-BE\\HealthSquad\\DL\\DL.csproj": {
-              "projectPath": "C:\\Users\\17138\\Desktop\\freelance_projects\\HealthSquad-BE\\HealthSquad\\DL\\DL.csproj"
+            "c:\\Users\\17138\\Desktop\\freelance_projects\\HealthSquad-BE\\HealthSquad\\DL\\DL.csproj": {
+              "projectPath": "c:\\Users\\17138\\Desktop\\freelance_projects\\HealthSquad-BE\\HealthSquad\\DL\\DL.csproj"
             },
-            "C:\\Users\\17138\\Desktop\\freelance_projects\\HealthSquad-BE\\HealthSquad\\Models\\Models.csproj": {
-              "projectPath": "C:\\Users\\17138\\Desktop\\freelance_projects\\HealthSquad-BE\\HealthSquad\\Models\\Models.csproj"
+            "c:\\Users\\17138\\Desktop\\freelance_projects\\HealthSquad-BE\\HealthSquad\\Models\\Models.csproj": {
+              "projectPath": "c:\\Users\\17138\\Desktop\\freelance_projects\\HealthSquad-BE\\HealthSquad\\Models\\Models.csproj"
             }
           }
         }

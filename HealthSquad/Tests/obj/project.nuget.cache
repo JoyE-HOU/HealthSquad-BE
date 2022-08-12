@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tQkZCehpqkBb1wEuyIJMO3gtHFpf+7qruiQldHlgMiSfuuLMeGBnjv+dXlXc5d3X7+btxw5hRokCkwaLM6H8hA==",
+  "dgSpecHash": "AUdXoZQpN9aLCL7fVk2TwQBDlOd54wv07twkIrAqsMJxCrQLFwYrfQBBFmgT/p0fKfhlF7OrT0bfZNJzpVSKvw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\17138\\Desktop\\freelance_projects\\HealthSquad-BE\\HealthSquad\\Tests\\Tests.csproj",
+  "projectFilePath": "c:\\Users\\17138\\Desktop\\freelance_projects\\HealthSquad-BE\\HealthSquad\\Tests\\Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\17138\\.nuget\\packages\\coverlet.collector\\3.1.0\\coverlet.collector.3.1.0.nupkg.sha512",
     "C:\\Users\\17138\\.nuget\\packages\\microsoft.codecoverage\\16.11.0\\microsoft.codecoverage.16.11.0.nupkg.sha512",
