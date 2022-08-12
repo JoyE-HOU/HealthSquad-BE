@@ -1,8 +1,13 @@
 FROM mcr.microsoft.com/dotnet/aspnet:6.0 AS final
 WORKDIR /app
 
+# Base image to build our image off of
 FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
+
+# setting the work directory to run subsequent add, copy, cmd, run, etc. commands from in our IMAGE
 WORKDIR /src
+
+# Copying csproj and sln files over from our source code to image
 COPY HealthSquad.sln ./
 COPY /BL/*.csproj ./BL/
 COPY /DL/*.csproj ./DL/
@@ -10,9 +15,12 @@ COPY /Models/*.csproj ./Models/
 COPY /Tests/*.csproj ./Tests/
 COPY /WebAPI/*.csproj ./WebAPI/
 
-
+# Before moving further, let's check our sln is able to restore all its dependencies
 RUN dotnet restore
-COPY . .
+
+# Copying the entire folder or src code to a different directory
+# COPY . .
+COPY . ./
 
 WORKDIR /src/BL
 RUN dotnet build -c release -o /app
